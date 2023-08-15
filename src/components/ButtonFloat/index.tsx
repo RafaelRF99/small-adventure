@@ -1,3 +1,4 @@
+'use client'
 import styles from './BackHome.module.scss'
 // NEXT
 import Image from 'next/image'
@@ -32,10 +33,16 @@ export default function ButtonFloat({choice}: ButtonFloatProps) {
         }
     }
 
+    function refreshPage() {
+        if (choice === 'clear') {
+            return window.location.reload();
+        }
+      }
+
     return (
         <div className={styles.back} style={{bottom: handleStyleFloat()}}>
             <Link href='/'>
-                <button className={styles.invisible}>
+                <button className={styles.invisible} onClick={refreshPage}>
                     {handleFloat()}
                 </button>
             </Link>
