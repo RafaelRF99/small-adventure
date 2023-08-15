@@ -15,4 +15,20 @@
 
         gap: .3rem;
     }
+
+    .drop {
+        display: flex;
+        flex-direction: column;
+
+        .trade {
+            width: 100px;
+
+            background-color: #000;
+            color: #FFF;
+
+            border: none;
+            padding: 4px 8px;
+            margin: 7px 0;
+        }
+    }
 }
