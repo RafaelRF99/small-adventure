@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    padding: 1rem;
+
+    .top {
+        display: flex;
+        justify-content: center;
+        
+        .title {
+            display: inline-block;
+            border-bottom: 1px solid #000;
+            
+            margin: 1rem 0;
+        }
+    }
+
+    .display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 1rem;
+    }
+}
