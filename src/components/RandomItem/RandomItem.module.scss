@@ -15,6 +15,10 @@
         font-weight: bold;
 
         gap: .3rem;
+
+        p {
+            min-width: 35px;
+        }
     }
 
     .drop {
