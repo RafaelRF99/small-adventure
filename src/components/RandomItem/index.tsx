@@ -1,7 +1,7 @@
 'use client'
 import styles from './RandomItem.module.scss';
 // JSON
-import { saque } from './drop';
+import { acessorios, saque } from './drop';
 // HOOKS
 import { useState } from 'react';
 
@@ -19,12 +19,22 @@ export default function RandomItem({ tier, title }: RandomItemProps) {
     }
 
     function renderDrop() {
+        if (tier === 1) {
+            const qtd = acessorios.length;
+            const random = Math.floor(Math.random() * qtd);
+            const escolha = acessorios[random];
+            if (escolha.dano) {
+                return escolha.lot + " +" + escolha.dano;
+            }
+            return escolha.lot + '*'
+        }
         if (tier === 2) {
             const qtd = saque.length;
             const random = Math.floor(Math.random() * qtd);
             const escolha = saque[random];
             return escolha.lot;
-        } else {
+        }
+        else {
             return "Erro"
         }
     }
