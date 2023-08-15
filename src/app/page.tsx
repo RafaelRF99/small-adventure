@@ -1,9 +1,10 @@
 import styles from './page.module.css'
 // FONTS
 import { title } from '../fonts/fonts'
+// NEXT
+import Link from 'next/link'
 // COMPONENTS
 import Play from '@/components/Play'
-import Link from 'next/link'
 
 export default function Home() {
   return (
