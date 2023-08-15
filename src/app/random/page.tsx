@@ -3,7 +3,7 @@ import styles from './random.module.scss'
 import { title } from '../../fonts/fonts'
 // COMPONENTS
 import RandomItem from "@/components/RandomItem";
-import BackHome from '@/components/BackHome';
+import ButtonFloat from '@/components/ButtonFloat';
 
 export default function Random() {
     return (
@@ -22,7 +22,8 @@ export default function Random() {
                 <RandomItem tier={9} title="Monstros Errantes Nivel 1" />
                 <RandomItem tier={10} title="Poções" />
             </div>
-            <BackHome />
+            <ButtonFloat choice='exit' />
+            <ButtonFloat choice='clear' />
         </div>
     )
 }
