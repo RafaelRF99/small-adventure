@@ -47,9 +47,9 @@ export default function RandomItem({ tier, title }: RandomItemProps) {
             </div>
             <br />
             <div>
-                <p>Drop:</p>
                 <div className={styles.drop}>
                     <button className={styles.trade} onClick={handlePlayClick}>Jogar</button>
+                    <p>Drop:</p>
                     {drop}
                 </div>
             </div>
