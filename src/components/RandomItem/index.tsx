@@ -50,10 +50,10 @@ export default function RandomItem({ tier, title }: RandomItemProps) {
             const random = Math.floor(Math.random() * qtd);
             const escolha = armadilhas[random];
             return (
-                <>
+                <span className={styles.render}>
                     <p>{escolha.trap}</p>
                     <p>{escolha.effect}</p>
-                </>
+                </span>
             )
         }
         if (tier === 5) {
@@ -61,10 +61,10 @@ export default function RandomItem({ tier, title }: RandomItemProps) {
             const random = Math.floor(Math.random() * qtd);
             const escolha = colares[random];
             return (
-                <>
+                <span className={styles.render}>
                     <p>{escolha.lot}</p>
                     <p>{escolha.effect}</p>
-                </>
+                </span>
             )
         }
         if (tier === 6) {
