@@ -66,3 +66,18 @@ export const clava3 = [
     { id: 5, bonus: "Clava de Gelo +3" },
     { id: 6, bonus: "Clava de Cura +3*" },
 ]
+
+export const monstros = [
+    { id: 1, mob: "Goblin" },
+    { id: 2, mob: "Dragones" },
+    { id: 3, mob: "Orc" },
+]
+
+export const pocoes = [
+    { id: 1, mob: "Escorregadia" },
+    { id: 2, mob: "Força" },
+    { id: 3, mob: "Sorte" },
+    { id: 4, mob: "Velocidade" },
+    { id: 5, mob: "Vida" },
+    { id: 6, mob: "Instável" },
+]

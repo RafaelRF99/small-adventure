@@ -28,14 +28,24 @@
             color: #FFF;
 
             border: none;
+            box-shadow: 3px 3px 5px #0003;
             padding: 4px 8px;
             margin: 10px 0 25px 0;
+            
+            cursor: pointer;
+
+            &:hover {
+                scale: 1.02;
+            }
         }
 
         .render {
             display: flex;
             flex-direction: column;
             gap: .3rem;
+
         }
+
     }
+
 }

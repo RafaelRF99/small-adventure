@@ -1,7 +1,7 @@
 'use client'
 import styles from './RandomItem.module.scss';
 // JSON
-import { acessorios, saque, baus, armadilhas, colares, clava1, clava2, clava3 } from './drop';
+import { acessorios, saque, baus, armadilhas, colares, clava1, clava2, clava3, monstros, pocoes } from './drop';
 // HOOKS
 import { useState } from 'react';
 
@@ -84,6 +84,18 @@ export default function RandomItem({ tier, title }: RandomItemProps) {
             const random = Math.floor(Math.random() * qtd);
             const escolha = clava3[random];
             return escolha.bonus;
+        }
+        if (tier === 9) {
+            const qtd = monstros.length;
+            const random = Math.floor(Math.random() * qtd);
+            const escolha = monstros[random];
+            return escolha.mob;
+        }
+        if (tier === 10) {
+            const qtd = pocoes.length;
+            const random = Math.floor(Math.random() * qtd);
+            const escolha = pocoes[random];
+            return escolha.mob;
         }
         else {
             return "Erro"

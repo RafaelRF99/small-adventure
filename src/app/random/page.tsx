@@ -18,6 +18,8 @@ export default function Random() {
                 <RandomItem tier={6} title="Clavas Mágicas Nivel 1" />
                 <RandomItem tier={7} title="Clavas Mágicas Nivel 2" />
                 <RandomItem tier={8} title="Clavas Mágicas Nivel 3" />
+                <RandomItem tier={9} title="Monstros Errantes Nivel 1" />
+                <RandomItem tier={10} title="Poções" />
             </div>
         </div>
     )
