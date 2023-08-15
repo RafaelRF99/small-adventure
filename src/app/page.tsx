@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1 className={`${title.className} ${styles.title}`}>Small Adventure</h1>
-      <Link href='/random'>
+      <Link href='/select'>
         <Play />
       </Link>
     </main>
