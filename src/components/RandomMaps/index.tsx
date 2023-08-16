@@ -26,7 +26,7 @@ export default function RandomMaps({ carta }: RandomMapsProps) {
             </div>
             <div className={styles.img}>
                 {random !== null ? (
-                    <Image src={`/assets/maps/${carta}${random}.png`} alt={'tes'} width={230} height={300} />
+                    <Image src={`/assets/maps/${carta}${random}.png`} alt={`${carta}${random}`} width={230} height={300} />
                 ) : ''}
             </div>
             <button className={styles.btn} onClick={randomSelect}>Jogar</button>
