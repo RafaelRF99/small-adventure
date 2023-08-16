@@ -11,7 +11,7 @@ interface ButtonFloatProps {
     choice: string
 }
 
-export default function ButtonFloat({choice}: ButtonFloatProps) {
+export default function ButtonFloat({ choice }: ButtonFloatProps) {
 
     function handleStyleFloat() {
         if (choice === 'exit') {
@@ -23,13 +23,13 @@ export default function ButtonFloat({choice}: ButtonFloatProps) {
             return select
         }
     }
-    
+
     function handleFloat() {
         if (choice === 'exit') {
-            return <Image src={exit} alt='Exit' width={30} />
+            return <Image src={exit} alt='Exit' width={30} priority={10 === 10} />
         }
         if (choice === 'clear') {
-            return <Image src={clear} alt='Clear' width={30} />
+            return <Image src={clear} alt='Clear' width={30} priority={10 === 10} />
         }
     }
 
@@ -37,10 +37,10 @@ export default function ButtonFloat({choice}: ButtonFloatProps) {
         if (choice === 'clear') {
             return window.location.reload();
         }
-      }
+    }
 
     return (
-        <div className={styles.back} style={{bottom: handleStyleFloat()}}>
+        <div className={styles.back} style={{ bottom: handleStyleFloat() }}>
             <Link href='/'>
                 <button className={styles.invisible} onClick={refreshPage}>
                     {handleFloat()}

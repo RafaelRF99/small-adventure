@@ -17,6 +17,8 @@ export default function RandomMaps({ carta }: RandomMapsProps) {
         setRandom(select === 0 ? select + 1 : select);
     }
 
+    const destiny = carta + random
+
     return (
         <div className={styles.container}>
             <div className={styles.information}>
@@ -26,7 +28,7 @@ export default function RandomMaps({ carta }: RandomMapsProps) {
             </div>
             <div className={styles.img}>
                 {random !== null ? (
-                    <Image src={`/assets/maps/${carta}${random}.png`} alt={`${carta}${random}`} width={230} height={300} />
+                    <Image src={`/maps/${destiny}.PNG`} alt={destiny} width={230} height={300} />
                 ) : ''}
             </div>
             <button className={styles.btn} onClick={randomSelect}>Jogar</button>
