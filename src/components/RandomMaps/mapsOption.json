@@ -1,0 +1,632 @@
+[
+    {
+        "carta": "A1",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "A2",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "A3",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "A4",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "A5",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "A6",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "21",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "22",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "23",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "24",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "25",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "26",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "31",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "32",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "33",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "34",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "35",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "36",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "41",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trapAE": "Bloqueio Giratório: O portal no centro da sala emana energias que im- pedem a passagem através destes ladri- lhos. Se você acabou de entrar na Sala e está em cima de um deles, você deve recuar para a Sala anterior.",
+        "trap": 0
+    },
+    {
+        "carta": "42",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trapAE": "Bloqueio Giratório: O portal no centro da sala emana energias que im- pedem a passagem através destes ladri- lhos. Se você acabou de entrar na Sala e está em cima de um deles, você deve recuar para a Sala anterior.",
+        "trap": 0
+    },
+    {
+        "carta": "43",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trapAE": "Bloqueio Giratório: O portal no centro da sala emana energias que im- pedem a passagem através destes ladri- lhos. Se você acabou de entrar na Sala e está em cima de um deles, você deve recuar para a Sala anterior.",
+        "trap": 0
+    },
+    {
+        "carta": "44",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trapAE": "Bloqueio Giratório: O portal no centro da sala emana energias que im- pedem a passagem através destes ladri- lhos. Se você acabou de entrar na Sala e está em cima de um deles, você deve recuar para a Sala anterior.",
+        "trap": 0
+    },
+    {
+        "carta": "45",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trapAE": "Bloqueio Giratório: O portal no centro da sala emana energias que im- pedem a passagem através destes ladri- lhos. Se você acabou de entrar na Sala e está em cima de um deles, você deve recuar para a Sala anterior.",
+        "trap": 0
+    },
+    {
+        "carta": "46",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trapAE": "Bloqueio Giratório: O portal no centro da sala emana energias que im- pedem a passagem através destes ladri- lhos. Se você acabou de entrar na Sala e está em cima de um deles, você deve recuar para a Sala anterior.",
+        "trap": 0
+    },
+    {
+        "carta": "51",
+        "monstro": 2,
+        "bau": true,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "52",
+        "monstro": 1,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "53",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "54",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "55",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "56",
+        "monstro": 1,
+        "bau": true,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "61",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "62",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "63",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "64",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "65",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "66",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "71",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "72",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "73",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "74",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "75",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "76",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "81",
+        "monstro": 2,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "82",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "83",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "84",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "85",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "86",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": true,
+        "evento": 0,
+        "trap": 2
+    },
+    {
+        "carta": "91",
+        "monstro": 2,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "92",
+        "monstro": 1,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "93",
+        "monstro": 3,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "94",
+        "monstro": 3,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 0
+    },
+    {
+        "carta": "95",
+        "monstro": 3,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 2
+    },
+    {
+        "carta": "96",
+        "monstro": 3,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 0,
+        "trap": 1
+    },
+    {
+        "carta": "11",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 3
+    },
+    {
+        "carta": "12",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "13",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "14",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "15",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "16",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "J1",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "J2",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "J3",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "J4",
+        "monstro": 0,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "J5",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "J6",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "Q1",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "Q2",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 2
+    },
+    {
+        "carta": "Q3",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 1
+    },
+    {
+        "carta": "Q4",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 1
+    },
+    {
+        "carta": "Q5",
+        "monstro": 3,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 1
+    },
+    {
+        "carta": "Q6",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "K1",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "K2",
+        "monstro": 2,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "K3",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "K4",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "K5",
+        "monstro": 1,
+        "bau": false,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    },
+    {
+        "carta": "K5",
+        "monstro": 0,
+        "bau": true,
+        "chaveMestra": false,
+        "evento": 1,
+        "trap": 0
+    }
+]

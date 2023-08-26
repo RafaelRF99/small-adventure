@@ -1,8 +1,8 @@
-import styles from './RandomItem.module.scss';
+import styles from '../components/RandomItem/RandomItem.module.scss';
 // JSON
-import { acessorios, saque, baus, armadilhas, colares, clava1, clava2, clava3, monstros, monstros2, pocoes } from './drop';
+import { acessorios, saque, baus, armadilhas, colares, clava1, clava2, clava3, monstros, monstros2, pocoes } from '../components/RandomItem/drop';
 
-export function renderDrop (tier: number) {
+export function renderDrop(tier: number) {
   if (tier === 1) {
     const qtd = acessorios.length
     const random = Math.floor(Math.random() * qtd)
@@ -71,14 +71,14 @@ export function renderDrop (tier: number) {
     const random = Math.floor(Math.random() * qtd)
     const escolha = monstros2[random]
     return escolha.mob
-  }else {
+  } else {
   }
   if (tier === 10) {
     const qtd = pocoes.length
     const random = Math.floor(Math.random() * qtd)
     const escolha = pocoes[random]
     return escolha.mob
-  }else {
+  } else {
     return 'Erro'
   }
 }

@@ -3,7 +3,7 @@ import styles from './RandomItem.module.scss';
 // HOOKS
 import { useState } from 'react';
 // FUNCTION
-import { renderDrop } from './renderDrop'
+import { renderDrop } from '../../functions/renderDrop'
 
 interface RandomItemProps {
     tier: number;
