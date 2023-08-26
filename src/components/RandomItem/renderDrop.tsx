@@ -60,20 +60,20 @@ export function renderDrop (tier: number) {
     const escolha = clava3[random]
     return escolha.bonus
   }
-  if (tier === 9) {
+  if (tier === 11) {
     const qtd = monstros.length
     const random = Math.floor(Math.random() * qtd)
     const escolha = monstros[random]
     return escolha.mob
   }
-  if (tier === 10) {
+  if (tier === 13) {
     const qtd = monstros2.length
     const random = Math.floor(Math.random() * qtd)
     const escolha = monstros2[random]
     return escolha.mob
   }else {
   }
-  if (tier === 11) {
+  if (tier === 10) {
     const qtd = pocoes.length
     const random = Math.floor(Math.random() * qtd)
     const escolha = pocoes[random]

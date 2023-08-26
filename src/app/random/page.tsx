@@ -14,14 +14,15 @@ export default function Random() {
             <div className={styles.display}>
                 <RandomItem tier={1} title="Acessórios" />
                 <RandomItem tier={2} title="Saqueando Monstros" />
+                <RandomItem tier={3} title="Abrindo Baú***" />
                 <RandomItem tier={4} title="Armadilhas" />
                 <RandomItem tier={5} title="Colares do Poder" />
                 <RandomItem tier={6} title="Clavas Mágicas Nivel 1" />
                 <RandomItem tier={7} title="Clavas Mágicas Nivel 2" />
                 <RandomItem tier={8} title="Clavas Mágicas Nivel 3" />
-                <RandomItem tier={9} title="Monstros Errantes Nivel 1" />
-                <RandomItem tier={10} title="Monstros Errantes Nivel 2" />
-                <RandomItem tier={11} title="Poções" />
+                <RandomItem tier={10} title="Poções" />
+                <RandomItem tier={11} title="Monstros Errantes Nivel 1" />
+                <RandomItem tier={13} title="Monstros Errantes Nivel 2" />
             </div>
             <ButtonFloat choice='exit' />
             <ButtonFloat choice='clear' />

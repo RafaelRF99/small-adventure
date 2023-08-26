@@ -17,10 +17,11 @@ export const saque = [
 
 export const baus = [
   { id: 1, lot: '1 dado de Ouro' },
-  { id: 2, lot: 'Poção' },
-  { id: 3, lot: 'Poção + Acessório' },
-  { id: 4, lot: 'Chave Mestra' },
-  { id: 5, lot: '1 dado de Ouro + Colar do Poder' }
+  { id: 2, lot: '1 dado de Ouro' },
+  { id: 3, lot: 'Poção' },
+  { id: 4, lot: 'Poção + Acessório' },
+  { id: 5, lot: 'Chave Mestra' },
+  { id: 6, lot: '1 dado de Ouro + Colar do Poder' }
 ]
 
 export const armadilhas = [
