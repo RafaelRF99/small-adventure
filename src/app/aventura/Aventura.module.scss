@@ -1,0 +1,48 @@
+.container {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+
+    padding: 0 1rem;
+
+    .title {
+        display: inline-block;
+        border-bottom: 1px solid #000;
+        
+        margin: 1rem 0;
+    }
+
+    .inform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 1.5rem;
+
+        gap: .7rem;
+
+        .quest {
+            display: flex;
+    
+            gap: .7rem;
+        }
+
+    }
+
+    .btn {
+        background-color: #000;
+        color: #FFF;
+
+        padding: .5rem 2rem;
+        border: none;
+        box-shadow: 5px 5px 5px #0003;
+
+        cursor: pointer;
+
+        margin-top: 1rem;
+        
+    }
+
+}
