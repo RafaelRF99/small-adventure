@@ -2,15 +2,13 @@ import { renderDrop } from "./renderDrop"
 
 export function MapsRenderMonstros(qtd: number) {
     if (qtd === 1) {
-        const variavel = ''
         let valor = renderDrop(11)
         return valor
     }
     if (qtd === 2) {
-        const variavel = ''
         let valor = renderDrop(11)
         let valor2 = renderDrop(11)
-        return valor + " " + valor2
+        return valor + " + " + valor2
     }
 }
 
@@ -23,12 +21,10 @@ export function MapsRenderBau(bau: boolean) {
 
 export function MapsRenderTrap(qtd: number) {
     if (qtd === 1) {
-        const variavel = ''
         let valor = renderDrop(4)
         return valor
     }
     if (qtd === 2) {
-        const variavel = ''
         let valor = renderDrop(4)
         let valor2 = renderDrop(4)
         return (
@@ -40,7 +36,6 @@ export function MapsRenderTrap(qtd: number) {
         )
     }
     if (qtd === 3) {
-        const variavel = ''
         let valor = renderDrop(4)
         let valor2 = renderDrop(4)
         let valor3 = renderDrop(4)

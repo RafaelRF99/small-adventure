@@ -1,4 +1,3 @@
-import styles from '../components/RandomItem/RandomItem.module.scss';
 // JSON
 import { acessorios, saque, baus, armadilhas, colares, clava1, clava2, clava3, monstros, monstros2, pocoes } from '../components/RandomItem/drop';
 
@@ -9,7 +8,7 @@ export function renderDrop(tier: number) {
     const escolha = acessorios[random]
     if (escolha.dano) {
       return (
-        <span className={styles.render}><p> {escolha.lot + ' +' + escolha.dano} </p> <p> {escolha.effect} </p></span>
+        <span><span> {escolha.lot + ' +' + escolha.dano} </span> <span> {escolha.effect} </span></span>
       )
     }
     return escolha.lot + '*'
@@ -31,7 +30,7 @@ export function renderDrop(tier: number) {
     const random = Math.floor(Math.random() * qtd)
     const escolha = armadilhas[random]
     return (
-      <span className={styles.render}><p> {escolha.trap} </p> <p> {escolha.effect} </p></span>
+      <span><span> {escolha.trap} </span> <span> {escolha.effect} </span></span>
     )
   }
   if (tier === 5) {
@@ -39,7 +38,7 @@ export function renderDrop(tier: number) {
     const random = Math.floor(Math.random() * qtd)
     const escolha = colares[random]
     return (
-      <span className={styles.render}><p> {escolha.lot} </p> <p> {escolha.effect} </p></span>
+      <span><span> {escolha.lot} </span> <span> {escolha.effect} </span></span>
     )
   }
   if (tier === 6) {

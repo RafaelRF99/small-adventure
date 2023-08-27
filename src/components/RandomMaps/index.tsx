@@ -33,7 +33,7 @@ export default function RandomMaps({ carta }: RandomMapsProps) {
         if (mapsOptin.filter(map => map.carta === destiny)) {
             return mapsOptin.filter(map => map.carta === destiny).map((carta, i) => {
                 return (
-                    <div key={i}>
+                    <div className={styles.text} key={i}>
                         {carta.monstro !== 0 ? <p>Monstro: {MapsRenderMonstros(carta.monstro)}</p> : ''}
                         {carta.bau ? <p>Báu: {MapsRenderBau(carta.bau)}</p> : ''}
                         {carta.chaveMestra ? <p>Chave Mestra: 1</p> : ''}
@@ -57,7 +57,9 @@ export default function RandomMaps({ carta }: RandomMapsProps) {
                     <Image src={`/maps/${destiny}.PNG`} alt={destiny} width={230} height={250} />
                 ) : ''}
             </div>
-            {handleDrop()}
+            <div className={styles.drop}>
+                {handleDrop()}
+            </div>
             <button className={styles.btn} onClick={randomSelect}>Jogar</button>
         </div>
     )
